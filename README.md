@@ -1,8 +1,8 @@
 # Auto-Tune DynamoDB
 
-`autotunedynamodb` is an AWS Lambda that tunes AWS DynamoDB read and write capacity by monitoring consumed capacity statistics. This can
-significantly reduce you AWS bill and improve response times during traffic spikes. It can publish adjustment
-notifications to [Slack](https://slack.com) for testing and monitoring. Use
+`autotunedynamodb` is an AWS Lambda "function" that tunes AWS DynamoDB read and write capacity by monitoring consumed
+capacity statistics. This can significantly reduce you AWS bill and improve response times during traffic spikes. It
+can publish adjustment notifications to [Slack](https://slack.com) for testing and monitoring. Use
 [`node-lambda`](https://www.npmjs.com/package/node-lambda) to run, package, and deploy `autotunedynamodb`.
 
 ## Features
