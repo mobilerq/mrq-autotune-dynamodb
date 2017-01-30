@@ -31,8 +31,13 @@ node_modules
 # Users Environment Variables
 .lock-wscript
 
+# osx
 .DS_Store
 
+# node-lambda
 event.json
 deploy.env
 build/
+
+# Intellij
+.idea
